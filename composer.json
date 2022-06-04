@@ -1,5 +1,5 @@
 {
-    "name": "scngn/parasut",
+    "name": "scngnr/parasut",
     "description": "Laravel parasut fatura entegrasyonu modülü",
     "autoload": {
         "psr-4": {
