@@ -1,0 +1,16 @@
+{
+    "name": "scngn/parasut",
+    "description": "Laravel parasut fatura entegrasyonu modülü",
+    "autoload": {
+        "psr-4": {
+            "Scngn\\Parasut\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "scngnr",
+            "email": "scngnr@gmail.com"
+        }
+    ],
+    "require": {}
+}
