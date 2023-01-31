@@ -8,12 +8,12 @@
         }
     },
     "extra": {
-      "laravel": {
-        "providers": [
-          "Scngnr\\Parasut\\Provider"
-        ]
-      }
-    },
+  "laravel": {
+    "providers": [
+      "Scngnr\\Parasut\\Provider"
+    ]
+  }
+},
     "authors": [
         {
             "name": "scngnr",
