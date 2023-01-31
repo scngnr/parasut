@@ -1,7 +1,7 @@
 <?php
 
-namespace Scngnr\Mdent\Binance\Helper;
-use Scngnr\Mdent\Binance\Helper\Bnexception;
+namespace Scngnr\Parasut\Helper;
+use Scngnr\Mdent\Parasut\Exception;
 
 Class Gateway {
 
@@ -56,7 +56,7 @@ Class Gateway {
   protected function createServiceInstance($serviceName)
   {
     //dd($serviceName);
-    $serviceName = "Scngnr\Mdent\Binance\Services\\" .  $serviceName;
+    $serviceName = "Scngnr\Parasut\Services\\" .  $serviceName;
     if (!class_exists($serviceName)) {
       throw new Bnexception("Geçersiz Dosya Yolu!");
     }

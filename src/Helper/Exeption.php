@@ -1,6 +1,6 @@
 <?php
 
-namespace Scngnr\Mdent\Binance\Helper;
+namespace Scngnr\Parasut\Helper;
 
 Class Exception {
 

@@ -1,10 +1,18 @@
 {
-    "name": "scngn/parasut",
+    "name": "scngnr/parasut",
     "description": "Laravel parasut fatura entegrasyonu modülü",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Scngn\\Parasut\\": "src/"
         }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Scngnr\\Parasut\\ParasutProvider"
+        ]
+      }
     },
     "authors": [
         {
