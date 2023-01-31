@@ -10,7 +10,7 @@
     "extra": {
       "laravel": {
         "providers": [
-          "Scngnr\\Parasut\\ParasutProvider"
+          "Scngnr\\Parasut\\Provider"
         ]
       }
     },
